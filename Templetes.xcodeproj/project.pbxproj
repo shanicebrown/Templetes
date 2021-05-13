@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31611FE1264D982A002AA08C /* TempletesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611FE0264D982A002AA08C /* TempletesApp.swift */; };
+		31611FE3264D982A002AA08C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611FE2264D982A002AA08C /* ContentView.swift */; };
+		31611FE5264D982D002AA08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31611FE4264D982D002AA08C /* Assets.xcassets */; };
+		31611FE8264D982D002AA08C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31611FE7264D982D002AA08C /* Preview Assets.xcassets */; };
+		31611FF3264D982D002AA08C /* TempletesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611FF2264D982D002AA08C /* TempletesTests.swift */; };
+		31611FFE264D982D002AA08C /* TempletesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611FFD264D982D002AA08C /* TempletesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31611FEF264D982D002AA08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31611FD5264D982A002AA08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31611FDC264D982A002AA08C;
+			remoteInfo = Templetes;
+		};
+		31611FFA264D982D002AA08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31611FD5264D982A002AA08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31611FDC264D982A002AA08C;
+			remoteInfo = Templetes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31611FDD264D982A002AA08C /* Templetes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Templetes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31611FE0264D982A002AA08C /* TempletesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempletesApp.swift; sourceTree = "<group>"; };
+		31611FE2264D982A002AA08C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31611FE4264D982D002AA08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31611FE7264D982D002AA08C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31611FE9264D982D002AA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31611FEE264D982D002AA08C /* TempletesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempletesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31611FF2264D982D002AA08C /* TempletesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempletesTests.swift; sourceTree = "<group>"; };
+		31611FF4264D982D002AA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31611FF9264D982D002AA08C /* TempletesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempletesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31611FFD264D982D002AA08C /* TempletesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempletesUITests.swift; sourceTree = "<group>"; };
+		31611FFF264D982D002AA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31611FDA264D982A002AA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31611FEB264D982D002AA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31611FF6264D982D002AA08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31611FD4264D982A002AA08C = {
+			isa = PBXGroup;
+			children = (
+				31611FDF264D982A002AA08C /* Templetes */,
+				31611FF1264D982D002AA08C /* TempletesTests */,
+				31611FFC264D982D002AA08C /* TempletesUITests */,
+				31611FDE264D982A002AA08C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31611FDE264D982A002AA08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31611FDD264D982A002AA08C /* Templetes.app */,
+				31611FEE264D982D002AA08C /* TempletesTests.xctest */,
+				31611FF9264D982D002AA08C /* TempletesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31611FDF264D982A002AA08C /* Templetes */ = {
+			isa = PBXGroup;
+			children = (
+				31611FE0264D982A002AA08C /* TempletesApp.swift */,
+				31611FE2264D982A002AA08C /* ContentView.swift */,
+				31611FE4264D982D002AA08C /* Assets.xcassets */,
+				31611FE9264D982D002AA08C /* Info.plist */,
+				31611FE6264D982D002AA08C /* Preview Content */,
+			);
+			path = Templetes;
+			sourceTree = "<group>";
+		};
+		31611FE6264D982D002AA08C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				31611FE7264D982D002AA08C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31611FF1264D982D002AA08C /* TempletesTests */ = {
+			isa = PBXGroup;
+			children = (
+				31611FF2264D982D002AA08C /* TempletesTests.swift */,
+				31611FF4264D982D002AA08C /* Info.plist */,
+			);
+			path = TempletesTests;
+			sourceTree = "<group>";
+		};
+		31611FFC264D982D002AA08C /* TempletesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31611FFD264D982D002AA08C /* TempletesUITests.swift */,
+				31611FFF264D982D002AA08C /* Info.plist */,
+			);
+			path = TempletesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31611FDC264D982A002AA08C /* Templetes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31612002264D982D002AA08C /* Build configuration list for PBXNativeTarget "Templetes" */;
+			buildPhases = (
+				31611FD9264D982A002AA08C /* Sources */,
+				31611FDA264D982A002AA08C /* Frameworks */,
+				31611FDB264D982A002AA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Templetes;
+			productName = Templetes;
+			productReference = 31611FDD264D982A002AA08C /* Templetes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31611FED264D982D002AA08C /* TempletesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31612005264D982D002AA08C /* Build configuration list for PBXNativeTarget "TempletesTests" */;
+			buildPhases = (
+				31611FEA264D982D002AA08C /* Sources */,
+				31611FEB264D982D002AA08C /* Frameworks */,
+				31611FEC264D982D002AA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31611FF0264D982D002AA08C /* PBXTargetDependency */,
+			);
+			name = TempletesTests;
+			productName = TempletesTests;
+			productReference = 31611FEE264D982D002AA08C /* TempletesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31611FF8264D982D002AA08C /* TempletesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31612008264D982D002AA08C /* Build configuration list for PBXNativeTarget "TempletesUITests" */;
+			buildPhases = (
+				31611FF5264D982D002AA08C /* Sources */,
+				31611FF6264D982D002AA08C /* Frameworks */,
+				31611FF7264D982D002AA08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31611FFB264D982D002AA08C /* PBXTargetDependency */,
+			);
+			name = TempletesUITests;
+			productName = TempletesUITests;
+			productReference = 31611FF9264D982D002AA08C /* TempletesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31611FD5264D982A002AA08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					31611FDC264D982A002AA08C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					31611FED264D982D002AA08C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 31611FDC264D982A002AA08C;
+					};
+					31611FF8264D982D002AA08C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 31611FDC264D982A002AA08C;
+					};
+				};
+			};
+			buildConfigurationList = 31611FD8264D982A002AA08C /* Build configuration list for PBXProject "Templetes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31611FD4264D982A002AA08C;
+			productRefGroup = 31611FDE264D982A002AA08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31611FDC264D982A002AA08C /* Templetes */,
+				31611FED264D982D002AA08C /* TempletesTests */,
+				31611FF8264D982D002AA08C /* TempletesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31611FDB264D982A002AA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31611FE8264D982D002AA08C /* Preview Assets.xcassets in Resources */,
+				31611FE5264D982D002AA08C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31611FEC264D982D002AA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31611FF7264D982D002AA08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31611FD9264D982A002AA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31611FE3264D982A002AA08C /* ContentView.swift in Sources */,
+				31611FE1264D982A002AA08C /* TempletesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31611FEA264D982D002AA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31611FF3264D982D002AA08C /* TempletesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31611FF5264D982D002AA08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31611FFE264D982D002AA08C /* TempletesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31611FF0264D982D002AA08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31611FDC264D982A002AA08C /* Templetes */;
+			targetProxy = 31611FEF264D982D002AA08C /* PBXContainerItemProxy */;
+		};
+		31611FFB264D982D002AA08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31611FDC264D982A002AA08C /* Templetes */;
+			targetProxy = 31611FFA264D982D002AA08C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31612000264D982D002AA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31612001264D982D002AA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31612003264D982D002AA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Templetes/Preview Content\"";
+				DEVELOPMENT_TEAM = 68ZWDW3GWY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Templetes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishanicey.Templetes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31612004264D982D002AA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Templetes/Preview Content\"";
+				DEVELOPMENT_TEAM = 68ZWDW3GWY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Templetes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishanicey.Templetes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31612006264D982D002AA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWDW3GWY;
+				INFOPLIST_FILE = TempletesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishanicey.TempletesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Templetes.app/Templetes";
+			};
+			name = Debug;
+		};
+		31612007264D982D002AA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWDW3GWY;
+				INFOPLIST_FILE = TempletesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishanicey.TempletesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Templetes.app/Templetes";
+			};
+			name = Release;
+		};
+		31612009264D982D002AA08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWDW3GWY;
+				INFOPLIST_FILE = TempletesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishanicey.TempletesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Templetes;
+			};
+			name = Debug;
+		};
+		3161200A264D982D002AA08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWDW3GWY;
+				INFOPLIST_FILE = TempletesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishanicey.TempletesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Templetes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31611FD8264D982A002AA08C /* Build configuration list for PBXProject "Templetes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31612000264D982D002AA08C /* Debug */,
+				31612001264D982D002AA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31612002264D982D002AA08C /* Build configuration list for PBXNativeTarget "Templetes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31612003264D982D002AA08C /* Debug */,
+				31612004264D982D002AA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31612005264D982D002AA08C /* Build configuration list for PBXNativeTarget "TempletesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31612006264D982D002AA08C /* Debug */,
+				31612007264D982D002AA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31612008264D982D002AA08C /* Build configuration list for PBXNativeTarget "TempletesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31612009264D982D002AA08C /* Debug */,
+				3161200A264D982D002AA08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31611FD5264D982A002AA08C /* Project object */;
+}
