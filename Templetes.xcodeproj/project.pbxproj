@@ -13,6 +13,8 @@
 		31611FE8264D982D002AA08C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31611FE7264D982D002AA08C /* Preview Assets.xcassets */; };
 		31611FF3264D982D002AA08C /* TempletesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611FF2264D982D002AA08C /* TempletesTests.swift */; };
 		31611FFE264D982D002AA08C /* TempletesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31611FFD264D982D002AA08C /* TempletesUITests.swift */; };
+		3161200C264D9858002AA08C /* Profile 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161200B264D9857002AA08C /* Profile 1.swift */; };
+		31F0A510264D9C7600017DF9 /* Profile2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F0A50F264D9C7600017DF9 /* Profile2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		31611FF9264D982D002AA08C /* TempletesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempletesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31611FFD264D982D002AA08C /* TempletesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempletesUITests.swift; sourceTree = "<group>"; };
 		31611FFF264D982D002AA08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3161200B264D9857002AA08C /* Profile 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile 1.swift"; sourceTree = "<group>"; };
+		31F0A50F264D9C7600017DF9 /* Profile2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				31611FE0264D982A002AA08C /* TempletesApp.swift */,
 				31611FE2264D982A002AA08C /* ContentView.swift */,
+				3161200B264D9857002AA08C /* Profile 1.swift */,
+				31F0A50F264D9C7600017DF9 /* Profile2.swift */,
 				31611FE4264D982D002AA08C /* Assets.xcassets */,
 				31611FE9264D982D002AA08C /* Info.plist */,
 				31611FE6264D982D002AA08C /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F0A510264D9C7600017DF9 /* Profile2.swift in Sources */,
 				31611FE3264D982A002AA08C /* ContentView.swift in Sources */,
 				31611FE1264D982A002AA08C /* TempletesApp.swift in Sources */,
+				3161200C264D9858002AA08C /* Profile 1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
